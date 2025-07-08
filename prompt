@@ -1,0 +1,4 @@
+Create command line tool named "progress" using the rust programming language. It should read stdin and copy it to stdout. While data is passing through 
+the tool, the tool should keep track of number of bytes copied, time in seconds since first byte arrived and average speed (bytes per second). Once a 
+second the tool should print to stderr the number of bytes, time since first byte and average speed. The stderr print should end with carriage return 
+instead of newline. When stdin closes, the program should print one newline to stderr and exit. Test the program builds and works.
