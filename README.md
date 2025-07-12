@@ -26,6 +26,8 @@ This will show progress information on your terminal while `random.gz` is being 
 
 To build the project, you need to have Rust and Cargo installed. You can find instructions on how to install them at [rust-lang.org](https://www.rust-lang.org/).
 
+If you have [nix](https://nixos.org/), you can get dev environment with `nix develop`.
+
 Once you have Rust and Cargo installed, you can build the project with the following command:
 
 ```sh
